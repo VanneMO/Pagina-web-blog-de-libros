@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Web page</title>
+
+<style>
+
+.header{
+display:flex;
+justify-content:center;
+aling-items:center;
+}
+
+.navbar{
+display:flex;
+aling-items:center;
+justify-content:center;
+}
+
+.list-saurces{
+display:flex;
+aling-items:center;
+justify-content:center;
+}
+
+.list-saurces figure{
+display:flex;
+justify-content:center;
+aling-items:center;
+flex-flow:column;
+}
+
+.header{
+height: 450px;
+background: url(img/ ) no-repest center top;
+background-size:cover;
+} 
+
+.navbar{
+height: 63px;
+background: #212121;
+border-bottom: 1px dashed #d6e199;
+}
+
+.navbar a{
+padding: 0 20px;
+color:#fff;
+text-decoration:none;
+text-transform: uppercase;
+}
+
+</style>
+
+</head>
+<body>
+
+<header class="header">
+
+</header>
+
+<nav class="navbar">
+<a herf="">Home</a>
+<a herf="">About</a>
+<a herf="">Contact/a>
+<a herf="">Saurces</a>
+<a herf="">Price</a>
+</nav>
+
+<section class="content abo">
+<h2 class="title">About</h2>
+<p>Era una vez un ángel y un demonio que se enamoraron. Pero su historia no tuvo un final feliz.</p>
+<br>- El amor es un lujo. - No. El amor es un elemento.
+<p>Nos leemos en la próxima. Un beso, Esther.</p>
+</section>
+
+<section class="content saurces">
+<h2 class="title">Saurces</h2>
+<p>Era una vez un ángel y un demonio que se enamoraron. Pero su historia no tuvo un final feliz.</p>
+<br>- El amor es un lujo. - No. El amor es un elemento.
+
+<ul class="list-saurces">
+<li>
+<figure>
+<img src="Rubí.png">
+<figcaotion>lorem</figcaotion>
+</figure>
+</li>
+<li>
+<figure>
+<img src="safiro.jpg">
+<figcaotion>lorem</figcaotion>
+</figure>
+</li>
+<li>
+<figure>
+<img src="emeralda.jpg">
+<figcaotion>lorem</figcaotion>
+</figure>
+</li>
+</ul>
+</section>
+
+<section class="content price">
+<artitle class="contain">
+<h2 class="title">Price</h2>
+<p>¿Te has preguntado alguna vez si son los monstruos los que provocan la guerra, o si es la guerra la que provoca monstruos?</p>
+<a herf="" class="btn">Contact</a>
+</artitle>
+</section>
+
+<section class="content contact">
+<h2 class="title">Contact</h2>
+<p>¿Te has preguntado alguna vez si son los monstruos los que provocan la guerra, o si es la guerra la que provoca monstruos?</p>
+<figure class=""><img src=""></figure>
+</section>
+
+
+
+</body>
+</html>
